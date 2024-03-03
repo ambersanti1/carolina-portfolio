@@ -78,7 +78,7 @@ nav h2 {
   background-image: 
     /* top, transparent red */
     linear-gradient(
-      rgba(199, 0, 57, 0.5), 
+      rgb(255, 87, 51, 0.7), 
       rgba(199, 0, 57, 0.5)
     ),
     /* your image */
