@@ -25,7 +25,7 @@
   border-radius: 20px;
   text-decoration: none;
   font-size: 20px;
-  font-family:'mulish-bold';
+  font-family:'mulish-medium';
 }
 nav {
   display: flex;
@@ -66,9 +66,9 @@ nav li a:hover {
 
 nav h2 {
   font-size: 40px;
-  font-family: "mulish-bold";
+  font-family: "mulish-medium";
   color: #fff;
-  text-shadow: 0 4px 0px rgba(0,0,0,.5);
+  text-shadow: 0 2px 0px rgba(0,0,0,.5);
   text-align: center;
   margin: 15px 20px 15px 15px;
 }
@@ -354,7 +354,7 @@ textarea::placeholder {
 
 /* LINKS */
 .links-section {
-  height: 130px;
+  height: 80px;
   background: #711840;
   display: flex;
   justify-content: center;
@@ -450,3 +450,79 @@ textarea::placeholder {
   border: none;
 }
 
+@media screen and (max-width:1200px){
+  .galeria {
+    display: block;
+  }
+  .home-container {
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  } 
+  .texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+
+  }
+  .home-container .carolina {
+    text-align: center;
+  }
+  
+  .project img {
+    width: 450px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+      .title {
+    font-size: 30px;
+  }
+
+  .description {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width:800px) {
+  nav {
+    display: flex;
+    justify-content: center;
+  }
+
+  .project img {
+    width: 350px;
+  }
+
+  .project {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .both-title-description {
+    text-align: center;
+  }
+  .right {
+    display: flex;
+    align-items: center;
+    margin:0;
+  }
+  .left {
+
+    margin:0;
+  }
+  .title {
+    font-size: 27px;
+  }
+  .description {
+    font-size: 17px;
+  }
+}

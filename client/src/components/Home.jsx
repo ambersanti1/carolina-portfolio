@@ -1,5 +1,6 @@
 import React from 'react'
 import avatar from "../img/avatar.png";
+import perrito from "../img/perrito-img.jpg";
 
 const Home = () => {
   return (
@@ -14,7 +15,7 @@ const Home = () => {
             <h1 class="hello">and this is my portfolio </h1>{" "}
           </div>
           <div class="profile-photo">
-            <img src={avatar} alt="" />
+            <img src={perrito} alt="" />
             <div class="circle-home c1"></div>
             <div class="circle-home c2"></div>
           </div>
