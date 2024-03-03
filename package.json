@@ -1,0 +1,17 @@
+{
+  "name": "carolina-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio to share my projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "concurrently \"cd server && npm run server\" \"cd client && npm run dev\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.2",
+    "nodemon": "^3.1.0"
+  }
+}
