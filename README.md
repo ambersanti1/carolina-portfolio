@@ -12,7 +12,7 @@ MIT License (2023, Ryan Messett)
 
 # DESCRIPTION
 
-My Full Stack Web Developer Portfolio. It contains an about me section, the portfolio with my projects, a contact inbox to send me a message, and a section with my resume
+This is my Full Stack Web Developer Portfolio, which contains an about me section, the portfolio with my projects, a contact inbox to send me a message, and a section with my resume.
 
 # INSTALLATION INFORMATION
 
