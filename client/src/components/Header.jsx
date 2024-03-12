@@ -12,7 +12,7 @@ const Header = () => {
           <div className="name-header">
             <h4>Sandoval</h4>
           </div>
-          <ul>
+          <ul className = "sections-container">
             <li
               className={currentSection === "home" ? "active" : ""}
               onClick={() => setCurrentSection("home")}

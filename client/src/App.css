@@ -129,6 +129,7 @@ nav ul {
   margin: 0;
   padding: 0;
 }
+
 nav li {
   list-style: none;
   text-align: center;
@@ -142,7 +143,6 @@ nav li a {
   text-decoration: none;
   display: block;
   width:120px;
-
 }
 
 nav li a:hover {
@@ -312,6 +312,7 @@ nav li a:hover {
   flex-direction:column;
   align-items: center;
   justify-content: center;
+  padding: 5% 0 5% 0;
 }
 
 .portfolio-container {
@@ -321,7 +322,6 @@ nav li a:hover {
   overflow: hidden;
   display:inline-block;
   width: 90%;
-  margin-bottom: 100px;
 }
 
 .project {
@@ -332,7 +332,7 @@ nav li a:hover {
 
 .projects-section img {
   max-width: 550px;
-  margin-bottom: 20px;
+  margin: 1% 0 5%;
   width: 100%;
   height: 50%;
   border-radius: 5px;
@@ -646,18 +646,21 @@ footer p{
 
 /* HEADER */
 @media screen and (max-width:1000px){
+
   nav {
     display: flex;
-    flex-direction: column;
-    justify-content: center; 
-    align-items: center;
+    justify-content: center;
+  }
+  nav ul {
+    display: flex;
+    justify-content: space-around;
   }
   nav ul li a {
-    width: 100px;
     font-size: x-small;
   }
+
   nav li a:hover {
-    width: 100px;
+    width: 80px;
   }
 
   .name-header {
@@ -671,16 +674,21 @@ footer p{
   .resume-section{
     padding: 10% 0 10% 0;
     height: auto;
-  }
+   }
 
-
+  .icon {
+  text-align: center;
+  font-size: 60px;
+  width: 100px;
+  margin: 1rem;
 }
-
-
+}
+  
 @media screen and (max-width:1200px){
   .portfolio-container {
     display: block;
   }
+
   .texto {
     display: flex;
     flex-direction: column;
@@ -688,24 +696,17 @@ footer p{
     align-items: center;
     margin-bottom: 30px;
   }
+
   .home-container .carolina {
     text-align: center;
   }
-
   
   .project img {
     width: 450px;
   }
 }
 
-
-
 @media screen and (max-width:800px) {
-
-  nav {
-    display: flex;
-    justify-content: center;
-  }
 
   .project img {
     width: 350px;
