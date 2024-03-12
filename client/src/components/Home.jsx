@@ -1,20 +1,18 @@
 import React from "react";
 import CV from "../assets/CV_AmberlySandoval.pdf";
-import perrito from '../img/home-img.jpg'
 import Lottie from "lottie-react";
-import animationData from "../assets/sun.json";
+import animationData from "../assets/sun3.json";
 
 const Home = () => {
   return (
-    <>
       <div id="home-sec" class="home-section">
         <div class="home-container">
           <div class="texto">
-            <h1 class="hello">Hello! I'm </h1>{" "}
+            <h1>Hello! I'm </h1>{" "}
             <h1 class="carolina">
               Carolina <span class="sandoval">Sandoval</span>
             </h1>
-            <h1 class="hello"> Full Stack Web Developer </h1>{" "}
+            <h1> Full Stack Web Developer </h1>{" "}
             <div className="download-cv">
               <a
                 href={CV}
@@ -27,13 +25,8 @@ const Home = () => {
             </div>
           </div>
           <Lottie className = "sun-lottie"animationData={animationData} />
-          {/* <div class="profile-photo">
-            <img src={perrito} alt="" />
-            <div class="circle-home c2"></div>
-          </div> */}
         </div>
       </div>
-    </>
   );
 };
 

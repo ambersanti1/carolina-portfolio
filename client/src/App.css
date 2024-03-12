@@ -22,12 +22,9 @@
   font-family: "mulish-medium-italic";
   src:url('../style/mulish/static/Mulish-MediumItalic.ttf');
 }
-@font-face {
-  font-family: "alice-regular";
-  src:url('../style/Alice-Regular.ttf');
-}
+
 :root {
-  --yellow: rgba(255,195,5) ; 
+  --yellow: #ffc305 ; 
   --orange: rgb(255, 87, 51); 
   --pink: rgb(199, 0, 57);
   --purple:  rgb(113, 24, 64);
@@ -145,7 +142,7 @@ nav li a {
   text-decoration: none;
   display: block;
   width:120px;
-  margin-right: 1rem;
+
 }
 
 nav li a:hover {
@@ -194,22 +191,18 @@ nav li a:hover {
   display: flex;
   flex-direction: row;
   justify-content: center;
+
 }
 .home-container .texto{
   display: flex;
   flex-direction: column;
-  
   justify-content: center;
 }
 .home-container h1 {
   color: white;
-  font-family: "mulish-extra-bold";
-}
-
-.home-container .hello {
-  font-size: 55px;
   font-family: "mulish-light";
 }
+
 .home-container .carolina {
   font-size: 70px;
   font-family: "mulish-bold";
@@ -251,13 +244,20 @@ nav li a:hover {
 /* ABOUT ME */
 .about-me-section {
   height: 100vh;
-  background: linear-gradient(to bottom, var(--orange) 90%, var(--pink));
+  background-color: var(--orange);
+  /* background: linear-gradient(to bottom, var(--orange) 90%, var(--pink)); */
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
+.photo-text-abt {
+  display: flex;
+  flex-direction: row;
+}
+
 .aboutme-container {
-  width: 90%;
+  width: 80%;
   max-width: 1200px;
   margin: 20px auto;
   display: flex;
@@ -275,22 +275,23 @@ nav li a:hover {
 }
 
 .profile-photo {
-  width: 200px; /* Ajusta el tamaño del círculo según tus necesidades */
-  height: 200px; /* El ancho y el alto deben ser iguales para que sea un círculo */
-  overflow: hidden; /* Oculta cualquier contenido que se desborde del círculo */
-  border-radius: 50%; /* Hace que el div tenga forma de círculo */
+  width: 200px; 
+  height: 200px; 
+  margin: 20px;
+  overflow: hidden; 
+  border-radius: 50%; 
 }
 
 .profile-photo img {
-    width: 100%; /* Asegúrate de que la imagen llene todo el círculo */
-  height: auto; /* Evita que la imagen se distorsione */
-  display: block; /* Elimina el espacio extra alrededor de la imagen */
+    width: 100%; 
+  height: auto; 
+  display: block; 
 }
 
 /* PORTFOLIO */
 
 .portfolio-btn {
-  font-family: 'alice-regular';
+  font-family: 'mulish-light';
   font-size: 15px;
   max-width: 100%;
   background:var(--yellow) ;
@@ -305,7 +306,8 @@ nav li a:hover {
 /* #ff5733 */
 .projects-section {
   height: auto;
-  background: linear-gradient(to bottom, var(--pink) 90%, var(--purple));
+  background-color: var(--pink);
+  /* background: linear-gradient(to bottom, var(--pink) 90%, var(--purple)); */
   display: flex;
   flex-direction:column;
   align-items: center;
@@ -330,6 +332,7 @@ nav li a:hover {
 
 .projects-section img {
   max-width: 550px;
+  margin-bottom: 20px;
   width: 100%;
   height: 50%;
   border-radius: 5px;
@@ -340,6 +343,7 @@ nav li a:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: 50%
 }
 
 .reverse {
@@ -362,30 +366,20 @@ nav li a:hover {
   display: flex;
   align-items: flex-start;
 }
-/* 
-.title {
-  font-family: 'mulish-bold';
-  color: #fff;
-  text-shadow: 0 4px 0px rgba(0,0,0,.5);
-} */
-
 
 
 /* CONTACT */
 
 .contact-section {
-  height: auto;
-  background: var(--pink);
+
+  height: 100vh;
+  background: var(--orange);
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.contact-section h2 {
-  margin: 50px 0 0 0;
-}
-
-.formulario {
+.form {
   width: 400px;
   padding: 20px;
   margin-right: 30px;
@@ -394,7 +388,7 @@ nav li a:hover {
   align-items: center;
 }
 
-.formulario input {
+.form input {
   display: inline-block;
   font-family: 'mulish-medium';
 }
@@ -404,9 +398,9 @@ textarea::placeholder {
   font-family: 'mulish-medium';
 }
 
-.formulario input[type= "text"],
-.formulario input[type= "email"],
-.formulario textarea{
+.form input[type= "text"],
+.form input[type= "email"],
+.form textarea{
   width: 100%;
   font-family: 'mulish-medium';
   padding: 20px;
@@ -417,27 +411,27 @@ textarea::placeholder {
   font-size: 16px;
 }
 
-.formulario textarea {
+.form textarea {
   min-height: 120px;
   max-height: 300px;
   min-width: 100%;
   max-width: 100%;
 }
 
-.formulario input[type= "text"]:focus,
-.formulario input[type= "email"]:focus,
-.formulario textarea:focus{
+.form input[type= "text"]:focus,
+.form input[type= "email"]:focus,
+.form textarea:focus{
   border: 2px solid #4fb560;
   outline: none; /* Es para que el borde no sea negro por default y agarre el color especificado, en este caso verde*/
 }
 
 /* focus es para cuando sueltas el click en un elemento */
 
-.formulario input[type = "submit"] {
+.form input[type = "submit"] {
   font-family: 'mulish-medium';
   width: 200px;
-  background: var(--yellow);
-  color: var(--pink);
+  background: var(--pink);
+  color: white;
   padding: 10px;
   cursor: pointer;
   font-size: 18px;
@@ -445,12 +439,12 @@ textarea::placeholder {
   border: none;
 }
 
-.formulario input[type = "submit"]:hover {
+.form input[type = "submit"]:hover {
   background-color: #4fb560;
   color: white;
 }
 
-.formulario-contenedor {
+.form-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -476,9 +470,10 @@ textarea::placeholder {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 70px;
-  height: 40px;
-  border-radius: 7px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  overflow: hidden
 }
 
 .vectors-space {
@@ -489,7 +484,7 @@ textarea::placeholder {
   align-items: center;
 }
 
-/* .v-linkedin {
+.v-linkedin {
   background-color: #2460c6;
 }
 
@@ -501,25 +496,27 @@ textarea::placeholder {
 }
 .v-github{
   background-color: #6e5494;
-} */
+} 
 
 /* Resume */
 .resume-section {
-  height: auto;
-  background: linear-gradient(to bottom, var(--purple) 90%, var(--pink));
+  height: 100vh;
+  background-color: var(--purple);
+  /* background: linear-gradient(to bottom, var(--purple) 90%, var(--pink)); */
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
 }
 
-.resume-section h2 {
-  margin-top: 50px;
+.resume-container {
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-
 .icons-container {
   width: 80%;
-  margin-bottom: 150px;
   display: flex;
   flex-wrap:wrap;
   justify-content: center;
@@ -580,18 +577,110 @@ textarea::placeholder {
   border: none;
 }
 
+/* FOOTER */
+footer {
+  background-color: var(--purple);
+  width: 100%;
+  padding: 20px;
+}
+
+footer p{
+  margin: 0;
+  font-size: x-small;
+  color: white;
+}
+
+
+/* RESPONSIVE WEBSITE */
+
+/* HOME */
 @media screen and (max-width:1200px){
-  .galeria {
-    display: block;
-  }
   .home-container {
-    margin-top: 0;
+    padding: 60% 0 30% 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sun-lottie {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+/* ABOUT ME */
+@media screen and (max-width:1200px){
+  .about-me-section {
+    height: auto;
+    padding: 10% 0 10% 0;
+  }
+  .aboutme-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
-  } 
+  }
+  .text-about-me {
+    width: 90%;
+  }
+}
+
+/* CONTACT  */
+@media screen and (max-width:1000px){
+.contact-section {
+  padding: 10% 0 10% 0;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.form {
+  margin-right: 0;
+}
+}
+
+/* HEADER */
+@media screen and (max-width:1000px){
+  nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+  }
+  nav ul li a {
+    width: 100px;
+    font-size: x-small;
+  }
+  nav li a:hover {
+    width: 100px;
+  }
+
+  .name-header {
+    display: none;
+  }
+
+}
+
+/* RESUME */
+@media screen and (max-width:1200px){
+  .resume-section{
+    padding: 10% 0 10% 0;
+    height: auto;
+  }
+
+
+}
+
+
+@media screen and (max-width:1200px){
+  .portfolio-container {
+    display: block;
+  }
   .texto {
     display: flex;
     flex-direction: column;
@@ -602,23 +691,17 @@ textarea::placeholder {
   .home-container .carolina {
     text-align: center;
   }
+
   
   .project img {
     width: 450px;
   }
 }
 
-@media screen and (max-width: 1000px) {
-      .title {
-    font-size: 30px;
-  }
 
-  .description {
-    font-size: 20px;
-  }
-}
 
 @media screen and (max-width:800px) {
+
   nav {
     display: flex;
     justify-content: center;
@@ -633,25 +716,30 @@ textarea::placeholder {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
   }
 
   .both-title-description {
     text-align: center;
   }
+
   .right {
     display: flex;
     align-items: center;
     margin:0;
   }
-  .left {
 
+  .left {
+    display: flex;
+    align-items: center;
     margin:0;
   }
+
   .title {
     font-size: 27px;
   }
+
   .description {
     font-size: 17px;
   }
+
 }

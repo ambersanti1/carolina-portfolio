@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import { ToastContainer, toast } from "react-toastify";
 import { validateEmail } from "../utils/helpers";
-import Links from './Links'
+import Links from "./Links";
 
 const Contact = () => {
   const [name, setName] = useState("");
@@ -70,14 +70,13 @@ const Contact = () => {
   return (
     <>
       <div id="contact-sec" class="contact-section">
-        <div class="formulario-contenedor">
-        <h2>Contact me</h2>
           <form
-            class="formulario"
+            class="form"
             action=""
             onSubmit={handleSubmit}
             onBlur={handleChange}
-          >
+            >
+            <h2>Contact me</h2>
             <input
               class="name"
               type="text"
@@ -102,10 +101,9 @@ const Contact = () => {
               rows="10"
               onChange={(e) => setMessage(e.target.value)}
             />
-           <input type="submit" value="Send" />
+            <input type="submit" value="Send" />
           </form>
-        </div>
-      <Links/>
+        <Links />
       </div>
       <ToastContainer />
     </>

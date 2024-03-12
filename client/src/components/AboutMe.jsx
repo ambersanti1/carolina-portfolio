@@ -1,7 +1,7 @@
 import React from "react";
-import Lottie from 'lottie-react'
-import animationData from '../assets/girl.json'
-import caro from '../img/carito.jpg'
+import Lottie from "lottie-react";
+import animationData from "../assets/girl.json";
+import caro from "../img/carito.jpg";
 
 const AboutMe = () => {
   return (
@@ -9,9 +9,7 @@ const AboutMe = () => {
       <div class="aboutme-container">
         <div className="text-about-me">
           <h2>About me</h2>
-          <div class="profile-photo">
-            <img src={caro} alt="" />
-          </div>
+          <img class="profile-photo" src={caro} alt="" />
           <p>
             I'm a passionate web developer dedicated to crafting engaging
             digital experiences. With a strong foundation in front-end and

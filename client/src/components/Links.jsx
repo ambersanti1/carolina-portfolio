@@ -3,7 +3,7 @@ import React from 'react'
 const Links = () => {
   return (
     <>
-      <div className = "links-text-container">
+      <div className="links-text-container">
         <p>Find me on these online spaces too!</p>
         <div id="links-sec" class="links-section">
           <script
@@ -37,10 +37,12 @@ const Links = () => {
               </a>
             </div>
             <div class="vector v-gmail">
-              <i
-                class="fa-brands fa-instagram fa-xl"
-                style={{ color: "#fff" }}
-              ></i>
+              <a href="https://www.instagram.com/ambersanti/?hl=es">
+                <i
+                  class="fa-brands fa-instagram fa-xl"
+                  style={{ color: "#fff" }}
+                ></i>
+              </a>
             </div>
           </div>
         </div>
