@@ -9,9 +9,9 @@ const Portfolio = () => {
         <p>This are some of the projects I've been working on</p>
         {projects.map((item) => (
           <div class={` project  ${item.reverse}`}>
-            <div class={` both-title-description ${item.direction}`} >
+            <div class={` both-title-description ${item.direction}`}>
               <h4>{item.project_title}</h4>
-              <p class="description">
+              <p class={` description ${item.direction_p}`}>
                 {item.project_description}
               </p>
               <button className="portfolio-btn">View website</button>
