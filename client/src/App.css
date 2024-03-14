@@ -50,7 +50,7 @@
 
 div h2 {
   font-family: "mulish-extra-bold";
-  font-size: 70px;
+  font-size: 60px;
   color: white;
   /* text-shadow: 0 4px 0px rgba(0,0,0,.5); */
   text-align: center;
@@ -430,8 +430,6 @@ textarea::placeholder {
 .form textarea {
   min-height: 120px;
   max-height: 300px;
-  min-width: 100%;
-  max-width: 100%;
 }
 
 .form input[type= "text"]:focus,
@@ -621,6 +619,18 @@ footer p{
     justify-content: center;
     align-items: center;
   }
+  .home-container h1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .home-container .download-cv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
   .sun-lottie {
     width: 300px;
@@ -660,6 +670,18 @@ footer p{
 
 .form {
   margin-right: 0;
+}
+.form input[type= "text"],
+.form input[type= "email"],
+.form textarea{
+  width: 70%;
+  font-family: 'mulish-medium';
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #CECECE;
+  font-family: arial;
+  font-size: 16px;
 }
 }
 
