@@ -287,11 +287,11 @@ nav li a:hover {
   border-radius: 50%; 
 }
 
-.profile-photo img {
+/* .profile-photo img {
   width: 100%; 
   height: auto; 
   display: block; 
-}
+} */
 
 /* PORTFOLIO */
 
@@ -613,10 +613,11 @@ footer p{
   
   /* FONTS */
   div h1 {
-    font-size: 40px;
+    font-size: 45px;
+    text-align: center;
   }
   div h2 {
-    font-size:30px;
+    font-size:40px;
   }
   div p {
     font-size:15px;
@@ -633,7 +634,7 @@ footer p{
   .home-container .carolina {
   font-size: 50px;
   font-family: "mulish-bold";
-}
+  }
 
   .home-container .texto{
     display: flex;
@@ -656,6 +657,12 @@ footer p{
   .about-me-section h2 {
     padding: 0;
   }
+
+  .aboutme-profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
   .aboutme-container {
     display: flex;
     flex-direction: column;
@@ -667,15 +674,14 @@ footer p{
     width: 90%;
   }
 
-  /* .profile-photo {
-    width: 200px;
-    height: 200px;
-  } */
-
   /* RESUME */
   .resume-section{
   padding: 10% 0 10% 0;
   height: auto;
+  }
+
+  .resume-section {
+    padding: 0 20px 0 20px;
   }
 
   .icon {
@@ -698,7 +704,7 @@ footer p{
 }
 
 .form {
-  width: auto;
+  width: 350px;
   margin-right: 0;
 }
 .form input[type= "text"],
@@ -716,37 +722,25 @@ footer p{
 }
 
 /* HEADER */
-@media screen and (max-width:800px){
 
+@media screen and (max-width:1200px){
+  
   nav {
     display: flex;
     justify-content: center;
   }
-  nav ul li a {
-    display: inline-block;
-    font-size: 15px;
-    width: 50px;
-    margin: 0 1rem 0 1rem;
-  }
-  nav li a:hover {
-    width: 50px;
-  }
 
-  .name-header {
-    display: none;
-  }
-}
-
-@media screen and (max-width:1200px){
-  
   nav ul li a {
     display: inline-block;
     font-size: 14px;
-    width: 70px;
-    margin: 0 1rem 0 1rem;
+    width: 50px;
+    margin: 0 0.5rem 0 0.5rem;
   }
   nav li a:hover {
-    width: 70px;
+    width: 50px;
+  }
+  .name-header {
+    display: none;
   }
 }
 
