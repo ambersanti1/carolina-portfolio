@@ -38,6 +38,9 @@
   box-sizing: border-box;
 }
 
+.container {
+  overflow-x: hidden;
+}
 /* FONTS  */
 
 /* .contenedor {
@@ -704,6 +707,7 @@ footer p{
 }
 
 .form {
+  width: 350px;
   margin-right: 0;
 }
 .form input[type= "text"],
@@ -743,12 +747,12 @@ footer p{
 
   nav ul li a {
     display: inline-block;
-    font-size: 15px;
-    width: 70px;
-    margin: 20px
+    font-size: 14px;
+    width: 50px;
+    margin: 0 0.5rem 0 0.5rem;
   }
   nav li a:hover {
-    width: 70px;
+    width: 50px;
   }
 
   .name-header {
