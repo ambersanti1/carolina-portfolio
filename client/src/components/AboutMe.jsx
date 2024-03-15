@@ -8,8 +8,10 @@ const AboutMe = () => {
     <div id="aboutme-sec" class="about-me-section">
       <div class="aboutme-container">
         <div className="text-about-me">
-          <h2>About me</h2>
-          <img class="profile-photo" src={caro} alt="" />
+          <div className="aboutme-profile">
+            <img class="profile-photo" src={caro} alt="" />
+            <h2>About me</h2>
+          </div>
           <p>
             I'm a passionate web developer dedicated to crafting engaging
             digital experiences. With a strong foundation in front-end and
@@ -20,7 +22,7 @@ const AboutMe = () => {
             trying new things to build a cleaner code and a prettier interface.
           </p>
         </div>
-        <Lottie animationData={animationData} />
+        <Lottie animationData={animationData} />  
       </div>
     </div>
   );
