@@ -619,6 +619,11 @@ footer p{
     justify-content: center;
     align-items: center;
   }
+
+  div h2 {
+    font-size:50px;
+  }
+
   .home-container .texto{
     display: flex;
     flex-direction: column;
@@ -687,16 +692,16 @@ footer p{
   }
   nav ul {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
   }
   nav ul li a {
-    width: 80px;
+    width: 70px;
     margin: 0 0.5rem 0 0.5rem;
     font-size: small;
   }
 
   nav li a:hover {
-    width: 80px;
+    width: 70px;
   }
 
   .name-header {
