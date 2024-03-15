@@ -26,7 +26,7 @@
 
 :root {
   --yellow: #ffc305 ; 
-  --orange: rgb(224, 49, 10); 
+  --orange: rgb(239, 58, 17); 
   --pink: rgb(199, 0, 57);
   --purple:  rgb(113, 24, 64);
   --green: #45c839;
@@ -38,18 +38,7 @@
   box-sizing: border-box;
 }
 
-.container {
-  overflow-x: hidden;
-}
 /* FONTS  */
-
-/* .contenedor {
-  width: 90%;
-  max-width: 1000vh;
-  margin: 20px auto;
-  overflow: hidden;
-} */
-
 
 div h2 {
   font-family: "mulish-extra-bold";
@@ -270,20 +259,19 @@ nav li a:hover {
 }
 
 .aboutme-container p {
-  text-align: justify;
-  background-color:rgb(230, 87, 55);
+  text-align: left;
+  background-color:#ff4f3f;
   border-radius: 5px;
-  padding: 10px;
+  padding: 10%;
 }
 
 .text-about-me {
-  width: 70%;
+  width: 60%;
   text-align: center;
 }
 
-.text-about-me h4{
-  font-family: 'mulish-extra-light';
-  font-size: 20px;
+.text-about-me h2{
+  padding:0;
 }
 
 .aboutme-profile {
@@ -624,8 +612,11 @@ footer p{
 @media screen and (max-width:1200px){
   
   /* FONTS */
+  div h1 {
+    font-size: 40px;
+  }
   div h2 {
-    font-size:50px;
+    font-size:30px;
   }
   div p {
     font-size:15px;
@@ -639,6 +630,10 @@ footer p{
     justify-content: center;
     align-items: center;
   }
+  .home-container .carolina {
+  font-size: 50px;
+  font-family: "mulish-bold";
+}
 
   .home-container .texto{
     display: flex;
@@ -672,19 +667,16 @@ footer p{
     width: 90%;
   }
 
-  .profile-photo {
-  width: auto; 
-  height: auto; 
-  margin: 20px;
-  overflow: hidden; 
-  border-radius: 50%; 
-  }
+  /* .profile-photo {
+    width: 200px;
+    height: 200px;
+  } */
 
   /* RESUME */
-    .resume-section{
-    padding: 10% 0 10% 0;
-    height: auto;
-   }
+  .resume-section{
+  padding: 10% 0 10% 0;
+  height: auto;
+  }
 
   .icon {
   text-align: center;
@@ -703,11 +695,10 @@ footer p{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }
 
 .form {
-  width: 350px;
+  width: auto;
   margin-right: 0;
 }
 .form input[type= "text"],
@@ -726,30 +717,16 @@ footer p{
 
 /* HEADER */
 @media screen and (max-width:800px){
-  header {
-    width: 100%;
-  }
+
   nav {
-    width: 100%;
     display: flex;
     justify-content: center;
   }
-
-  nav ul {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    padding: 0;
-  }
-
   nav ul li a {
     display: inline-block;
-    font-size: 14px;
+    font-size: 15px;
     width: 50px;
-    margin: 0 0.5rem 0 0.5rem;
+    margin: 0 1rem 0 1rem;
   }
   nav li a:hover {
     width: 50px;
@@ -758,9 +735,20 @@ footer p{
   .name-header {
     display: none;
   }
-
 }
 
+@media screen and (max-width:1200px){
+  
+  nav ul li a {
+    display: inline-block;
+    font-size: 14px;
+    width: 70px;
+    margin: 0 1rem 0 1rem;
+  }
+  nav li a:hover {
+    width: 70px;
+  }
+}
 
 @media screen and (max-width:1200px) {
 
@@ -775,7 +763,7 @@ footer p{
 
   .project img {
     width: 100%;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
   }
 
   .right-p {

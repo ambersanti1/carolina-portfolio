@@ -1,8 +1,6 @@
 import meditrack from "../img/meditrack-logo (2).png";
 import treefund from "../img/treefund-logo.png";
 import journal from "../img/journal-logo (2).png";
-import home from "../img/home-img.jpg";
-
 
 const projects = [
   {
@@ -32,15 +30,6 @@ const projects = [
     project_img: treefund,
     direction: "right",
     direction_p: "right-p",
-  },
-  {
-    id: 2,
-    project_title: "Journal",
-    project_description: "Add, edit, save and delete notes",
-    project_img: journal,
-    reverse: "reverse",
-    direction: "left",
-    direction_p: "left-p",
   },
 ];
 
