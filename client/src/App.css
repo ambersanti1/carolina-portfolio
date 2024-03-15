@@ -624,6 +624,9 @@ footer p{
   div h2 {
     font-size:50px;
   }
+  div p {
+    font-size:15px;
+  }
 
   /* HOME */
   .home-container {
@@ -667,8 +670,8 @@ footer p{
   }
 
   .profile-photo {
-  width: 100px; 
-  height: 100px; 
+  width: auto; 
+  height: auto; 
   margin: 20px;
   overflow: hidden; 
   border-radius: 50%; 
@@ -727,6 +730,7 @@ footer p{
     display: flex;
     justify-content: center;
   }
+
   nav ul {
     width: 100%;
     display: flex;
@@ -738,7 +742,13 @@ footer p{
   }
 
   nav ul li a {
-    font-size: small;
+    display: inline-block;
+    font-size: 15px;
+    width: 70px;
+    margin: 20px
+  }
+  nav li a:hover {
+    width: 70px;
   }
 
   .name-header {
