@@ -619,19 +619,12 @@ footer p{
     justify-content: center;
     align-items: center;
   }
-  .home-container h1{
+  .home-container .texto{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  .home-container .download-cv{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
   .sun-lottie {
     width: 300px;
     height: 300px;
@@ -697,6 +690,8 @@ footer p{
     justify-content: space-around;
   }
   nav ul li a {
+    width: 80px;
+    margin: 0 0.5rem 0 0.5rem;
     font-size: small;
   }
 
@@ -737,35 +732,37 @@ footer p{
   .project img {
     width: 450px;
   }
+
 }
 
 @media screen and (max-width:800px) {
 
   .project img {
     width: 100%;
-    margin-top: 10px;
+    margin-top: 1rem;
   }
 
-.right-p {
-  text-align: center;
-}
+  .right-p {
+    text-align: center;
+  }
 
-.left-p {
-  text-align: center;
-}
+  .left-p {
+    text-align: center;
+  }
   .project {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 10px 0 10px 0;
+    margin: 1rem 0 3rem 0;
 
   }
 
   .both-title-description {
     text-align: center;
     height: auto;
-    padding: 2rem;
+    width: auto;
+    padding-top: 2rem;
   }
 
   .right {
