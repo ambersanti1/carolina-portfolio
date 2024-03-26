@@ -12,11 +12,14 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     axios
-      .post("http://localhost:5000/api/contact", {
-        name,
-        email,
-        message,
-      })
+      .post(
+        "https://carolina-portfolio-3706c48e8bfe.herokuapp.com/api/contact",
+        {
+          name,
+          email,
+          message,
+        }
+      )
       .then((response) => {
         if (response.data.status) {
           toast.success("Message successfully sent", {

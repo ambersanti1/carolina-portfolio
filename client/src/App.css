@@ -41,7 +41,7 @@
 /* FONTS  */
 
 div h2 {
-  font-family: "mulish-extra-bold";
+  font-family: "mulish-medium";
   font-size: 60px;
   color: white;
   /* text-shadow: 0 4px 0px rgba(0,0,0,.5); */
@@ -195,6 +195,7 @@ nav li a:hover {
 .home-container h1 {
   color: white;
   font-family: "mulish-light";
+  font-size: 60px;
 }
 
 .home-container .carolina {
@@ -260,14 +261,16 @@ nav li a:hover {
 
 .aboutme-container p {
   text-align: left;
-  background-color:#ff4f3f;
   border-radius: 5px;
-  padding: 10%;
+  padding: 1rem;
 }
 
 .text-about-me {
-  width: 60%;
+  background-color:#ff4f3f;
+  width: 70%;
+  border-radius: 5px;
   text-align: center;
+  padding: 1rem;
 }
 
 .text-about-me h2{
@@ -676,7 +679,7 @@ footer p{
 
   /* RESUME */
   .resume-section{
-  padding: 10% 0 10% 0;
+  padding: 15% 0 15% 0;
   height: auto;
   }
 

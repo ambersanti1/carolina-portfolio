@@ -1,4 +1,4 @@
-import React from "react";
+import {Link, React } from "react";
 import projects from '../lists/projects'
 
 const Portfolio = () => {
@@ -14,8 +14,14 @@ const Portfolio = () => {
               <p class={` description ${item.direction_p}`}>
                 {item.project_description}
               </p>
-              <button className="portfolio-btn">View website</button>
-              <button className="portfolio-btn">View GitHub repository</button>
+              <a href={`${item.link}`}>
+                <button className="portfolio-btn">View website</button>
+              </a>
+              <a href={`${item.linkGit}`}>
+                <button className="portfolio-btn">
+                  View GitHub repository
+                </button>
+              </a>
             </div>
             <img src={item.project_img} alt="" />
           </div>

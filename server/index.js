@@ -8,7 +8,9 @@ const app = express();
 app.use(express.json());
 app.use(
   cors({
-    origin: ["http://localhost:3000"],
+    origin: [
+    "http://localhost:3000",
+    "https://carolina-portfolio-3706c48e8bfe.herokuapp.com"],
     credentials: true,
   })
 );

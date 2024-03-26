@@ -11,6 +11,8 @@ const projects = [
     project_img: meditrack,
     direction: "right",
     direction_p: "right-p",
+    link: "https://ambersanti1.github.io/meditrack-application/index.html",
+    linkGit: "https://github.com/ambersanti1/meditrack-application",
   },
   {
     id: 2,
@@ -30,6 +32,8 @@ const projects = [
     project_img: treefund,
     direction: "right",
     direction_p: "right-p",
+    link: "https://treefund-b757cb53a6e1.herokuapp.com/",
+    linkGit: "https://github.com/ambersanti1/TreeFund",
   },
 ];
 
