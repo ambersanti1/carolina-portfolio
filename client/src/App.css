@@ -411,6 +411,7 @@ nav li a:hover {
   font-family: 'mulish-medium';
 }
 
+
 input::placeholder,
 textarea::placeholder {
   font-family: 'mulish-medium';
@@ -425,7 +426,6 @@ textarea::placeholder {
   margin-bottom: 20px;
   border-radius: 5px;
   border: 1px solid #CECECE;
-  font-family: arial;
   font-size: 16px;
 }
 
@@ -737,10 +737,7 @@ footer p{
     margin: 1rem 0 2rem 0;
 
   }
-    .project img {
-    width: 70%;
-    margin-top: 1rem;
-  }
+
 
   .both-title-description {
     text-align: center;
@@ -764,6 +761,13 @@ footer p{
 }
 
 @media screen and (max-width: 750px) {
+  .icons-container {
+  width: 100%;
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: center;
+  align-items: center;
+}
   .icon {
   text-align: center;
   font-size: 50px;
@@ -813,14 +817,14 @@ footer p{
   font-size: 30px;
 }
   .project img {
-    width: 70%;
+    width: 80%;
     margin-top: 0.5rem;
   }
   .both-title-description {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 70%;
+  width: 80%;
   height: 412.5px;
   padding: 2% 2% 2% 2%;
   background-color: rgb(214, 45, 93);
