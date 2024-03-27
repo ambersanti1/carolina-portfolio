@@ -614,17 +614,6 @@ footer p{
 
 @media screen and (max-width:1200px){
   
-  /* FONTS */
-  div h1 {
-    font-size: 45px;
-    text-align: center;
-  }
-  div h2 {
-    font-size:40px;
-  }
-  div p {
-    font-size:15px;
-  }
 
   /* HOME */
   .home-container {
@@ -633,10 +622,6 @@ footer p{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
-  .home-container .carolina {
-  font-size: 50px;
-  font-family: "mulish-bold";
   }
 
   .home-container .texto{
@@ -698,7 +683,6 @@ footer p{
 /* CONTACT  */
 @media screen and (max-width:1000px){
 .contact-section {
-  padding: 10% 0 10% 0;
   height: auto;
   display: flex;
   flex-direction: column;
@@ -713,7 +697,7 @@ footer p{
 .form input[type= "text"],
 .form input[type= "email"],
 .form textarea{
-  width: 70%;
+  width: 100%;
   font-family: 'mulish-medium';
   padding: 20px;
   margin-bottom: 20px;
@@ -726,26 +710,6 @@ footer p{
 
 /* HEADER */
 
-@media screen and (max-width:1200px){
-  
-  nav {
-    display: flex;
-    justify-content: center;
-  }
-
-  nav ul li a {
-    display: inline-block;
-    font-size: 14px;
-    width: 50px;
-    margin: 0 0.5rem 0 0.5rem;
-  }
-  nav li a:hover {
-    width: 50px;
-  }
-  .name-header {
-    display: none;
-  }
-}
 
 @media screen and (max-width:1200px) {
 
@@ -756,11 +720,6 @@ footer p{
 
   .home-container .carolina {
     text-align: center;
-  }
-
-  .project img {
-    width: 100%;
-    margin-top: 0.5rem;
   }
 
   .right-p {
@@ -775,8 +734,12 @@ footer p{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 1rem 0 3rem 0;
+    margin: 1rem 0 2rem 0;
 
+  }
+    .project img {
+    width: 70%;
+    margin-top: 1rem;
   }
 
   .both-title-description {
@@ -797,5 +760,71 @@ footer p{
     align-items: center;
     margin:0;
   }
+
+}
+
+@media screen and (max-width: 750px) {
+  .icon {
+  text-align: center;
+  font-size: 50px;
+  width: 150px;
+  margin: 0.5rem;
+  }
+    div h1 {
+    font-size: 45px;
+    text-align: center;
+  }
+  div h2 {
+    font-size:35px;
+  }
+  div p {
+    font-size:15px;
+  }
+    nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  nav ul li a {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 12px;
+    width: 80px;
+  }
+  nav ul li a:hover {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 80px;
+  }
+
+  .name-header {
+    display: none;
+  }
+    .home-container .carolina {
+  font-size: 40px;
+  font-family: "mulish-bold";
+  }
+  .home-container h1 {
+  color: white;
+  font-family: "mulish-light";
+  font-size: 30px;
+}
+  .project img {
+    width: 70%;
+    margin-top: 0.5rem;
+  }
+  .both-title-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 70%;
+  height: 412.5px;
+  padding: 2% 2% 2% 2%;
+  background-color: rgb(214, 45, 93);
+  border-radius: 5px;
+}
 
 }

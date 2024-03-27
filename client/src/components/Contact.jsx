@@ -45,30 +45,30 @@ const Contact = () => {
       });
   };
 
-  const handleChange = (e) => {
-    if (e.target.name === "email") {
-      const isValid = validateEmail(e.target.value);
-      if (!isValid) {
-        toast.error("Email is invalid", {
-          position: "bottom-left",
-          autoClose: 2000,
-          hideProgressBar: false,
-          closeButton: false,
-          theme: "colored",
-        });
-      }
-    } else {
-      if (!e.target.value.length) {
-        toast.error(`A ${e.target.name} is required.`, {
-          position: "bottom-left",
-          autoClose: 2000,
-          hideProgressBar: false,
-          closeButton: false,
-          theme: "colored",
-        });
-      }
-    }
-  };
+  // const handleChange = (e) => {
+  //   if (e.target.name === "email") {
+  //     const isValid = validateEmail(e.target.value);
+  //     if (!isValid) {
+  //       toast.error("Email is invalid", {
+  //         position: "bottom-left",
+  //         autoClose: 2000,
+  //         hideProgressBar: false,
+  //         closeButton: false,
+  //         theme: "colored",
+  //       });
+  //     }
+  //   } else {
+  //     if (!e.target.value.length) {
+  //       toast.error(`A ${e.target.name} is required.`, {
+  //         position: "bottom-left",
+  //         autoClose: 2000,
+  //         hideProgressBar: false,
+  //         closeButton: false,
+  //         theme: "colored",
+  //       });
+  //     }
+  //   }
+  // };
 
   return (
     <>
@@ -77,7 +77,7 @@ const Contact = () => {
             class="form"
             action=""
             onSubmit={handleSubmit}
-            onBlur={handleChange}
+            // onBlur={handleChange}
             >
             <h2>Contact me</h2>
             <input
