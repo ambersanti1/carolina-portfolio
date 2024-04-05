@@ -1,4 +1,4 @@
-import {Link, React } from "react";
+import { React } from "react";
 import projects from '../lists/projects'
 
 const Portfolio = () => {
