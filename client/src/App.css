@@ -761,6 +761,14 @@ footer p{
 }
 
 @media screen and (max-width: 750px) {
+  .sun-lottie {
+  width: 350px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
   .icons-container {
   width: 100%;
   display: flex;
