@@ -11,27 +11,19 @@ const projects = [
     project_img: meditrack,
     direction: "right",
     direction_p: "right-p",
-    link: "https://ambersanti1.github.io/meditrack-application/index.html",
+    link: "https://meditrack-ae96a66b7968.herokuapp.com/",
     linkGit: "https://github.com/ambersanti1/meditrack-application",
   },
-  {
-    id: 2,
-    project_title: "Journal",
-    project_description:
-      "Ever wanted to jot down your thoughts about the day? With this app, you can easily record, edit, save, or delete your daily entries in your journal.",
-    project_img: journal,
-    reverse: "reverse",
-    direction: "left",
-    direction_p: "left-p",
-  },
+  
   {
     id: 3,
     project_title: "TreeFund",
     project_description:
       "Know what's happening with the natural ecosystems in Mexico and be part of the revolutionary change that recovers natural spaces.This application accepts donations through stripe to plant trees in Mexico.",
     project_img: treefund,
-    direction: "right",
-    direction_p: "right-p",
+    reverse: "reverse",
+    direction: "left",
+    direction_p: "left-p",
     link: "https://treefund-b757cb53a6e1.herokuapp.com/",
     linkGit: "https://github.com/ambersanti1/TreeFund",
   },
