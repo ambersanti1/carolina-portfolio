@@ -1,6 +1,5 @@
 import meditrack from "../img/meditrack-logo (2).png";
 import treefund from "../img/treefund-logo.png";
-import journal from "../img/journal-logo (2).png";
 
 const projects = [
   {
@@ -14,9 +13,9 @@ const projects = [
     link: "https://meditrack-ae96a66b7968.herokuapp.com/",
     linkGit: "https://github.com/ambersanti1/meditrack-application",
   },
-  
+
   {
-    id: 3,
+    id: 2,
     project_title: "TreeFund",
     project_description:
       "Know what's happening with the natural ecosystems in Mexico and be part of the revolutionary change that recovers natural spaces.This application accepts donations through stripe to plant trees in Mexico.",
