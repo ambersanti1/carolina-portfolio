@@ -16,13 +16,12 @@ const AboutMe = () => {
             I'm a passionate web developer dedicated to crafting engaging
             digital experiences. With a strong foundation in front-end and
             back-end development, I thrive on turning ideas into reality through
-            clean code and intuitive design. Let's create something awesome
-            together!
-            <br /> I am very passionate about my profession and I am always
-            trying new things to build a cleaner code and a prettier interface.
+            clean code and intuitive design. I am very passionate about my
+            profession and I am always trying new things to build a cleaner code
+            and a prettier interface. Let's create something awesome together!
           </p>
         </div>
-        <Lottie animationData={animationData} />  
+        <Lottie animationData={animationData} />
       </div>
     </div>
   );

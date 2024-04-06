@@ -7,7 +7,7 @@ const Portfolio = () => {
     <div id="portfolio-sec" class="projects-section">
       <div class="portfolio-container">
         <h2>Work</h2>
-        <p>This are some of the projects I've been working on</p>
+        <p>These are some of the projects I've been working on</p>
         {projects.map((item) => (
           <div class={` project  ${item.reverse}`}>
             <div class={` both-title-description ${item.direction}`}>
