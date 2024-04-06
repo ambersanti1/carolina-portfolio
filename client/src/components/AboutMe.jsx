@@ -18,7 +18,7 @@ const AboutMe = () => {
             back-end development, I thrive on turning ideas into reality through
             clean code and intuitive design. Let's create something awesome
             together!
-            <br />I am very passionate about my profession and I am always
+            <br /> I am very passionate about my profession and I am always
             trying new things to build a cleaner code and a prettier interface.
           </p>
         </div>
