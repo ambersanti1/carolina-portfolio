@@ -10,7 +10,7 @@ const Home = () => {
           <div class="texto">
             <h1>Hello! I'm </h1>{" "}
             <h1 class="carolina">
-              Carolina <span class="sandoval">Sandoval</span>
+              Amberly <span class="sandoval">Sandoval</span>
             </h1>
             <h1> Full Stack Web Developer </h1>{" "}
             <div className="download-cv">

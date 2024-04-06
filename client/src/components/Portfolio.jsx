@@ -1,5 +1,6 @@
 import { React } from "react";
 import projects from '../lists/projects'
+import "../styles/animations.css";
 
 const Portfolio = () => {
   return (
