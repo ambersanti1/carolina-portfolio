@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import { ToastContainer, toast } from "react-toastify";
-import { validateEmail } from "../utils/helpers";
+// import { validateEmail } from "../utils/helpers";
 import Links from "./Links";
 
 const Contact = () => {
@@ -44,31 +44,6 @@ const Contact = () => {
         console.log(err);
       });
   };
-
-  // const handleChange = (e) => {
-  //   if (e.target.name === "email") {
-  //     const isValid = validateEmail(e.target.value);
-  //     if (!isValid) {
-  //       toast.error("Email is invalid", {
-  //         position: "bottom-left",
-  //         autoClose: 2000,
-  //         hideProgressBar: false,
-  //         closeButton: false,
-  //         theme: "colored",
-  //       });
-  //     }
-  //   } else {
-  //     if (!e.target.value.length) {
-  //       toast.error(`A ${e.target.name} is required.`, {
-  //         position: "bottom-left",
-  //         autoClose: 2000,
-  //         hideProgressBar: false,
-  //         closeButton: false,
-  //         theme: "colored",
-  //       });
-  //     }
-  //   }
-  // };
 
   return (
     <>

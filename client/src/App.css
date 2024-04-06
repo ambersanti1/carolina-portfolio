@@ -269,6 +269,7 @@ nav li a:hover {
   border-radius: 5px;
   text-align: center;
   padding: 1rem;
+  width: 60%;
 
 }
 
@@ -395,7 +396,7 @@ nav li a:hover {
 /* CONTACT */
 
 .contact-section {
-
+  padding: 2rem 0 2rem;
   height: auto;
   background: var(--orange);
   display: flex;
@@ -415,6 +416,12 @@ nav li a:hover {
 .form input {
   display: inline-block;
   font-family: 'mulish-medium';
+}
+.form .name {
+  text-transform: capitalize;
+}
+.form .correo {
+  text-transform: lowercase;
 }
 
 
@@ -763,6 +770,10 @@ footer p{
 }
 
 @media screen and (max-width: 750px) {
+  .resume-section {
+    height: 900px;
+  }
+
   .sun-lottie {
   width: 350px;
   height: 250px;
