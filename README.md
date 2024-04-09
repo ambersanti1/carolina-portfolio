@@ -30,7 +30,7 @@ npm run start:dev
 
 # USAGE INFORMATION
 
-Open the following link to visit my portfolio: https://carolina-portfolio-3706c48e8bfe.herokuapp.com/
+Open the following link to visit my portfolio: https://www.amberly.dev
 
 # CONTRIBUTION GUIDELINES
 
