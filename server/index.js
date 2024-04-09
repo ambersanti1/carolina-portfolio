@@ -10,10 +10,8 @@ app.use(express.static(path.join(__dirname + "/public")));
 app.use(
   cors({
     origin: [
-      "http://localhost:3000",
-      "https://www.amberly.dev",
-      "https://https://carolina-portfolio-3706c48e8bfe.herokuapp.com",
-    ],
+    "http://localhost:3000",
+    "https://carolina-portfolio-3706c48e8bfe.herokuapp.com"],
     credentials: true,
   })
 );
