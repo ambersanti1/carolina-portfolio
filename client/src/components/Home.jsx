@@ -1,5 +1,5 @@
 import React from "react";
-import CV from "../assets/CV_AmberlySandoval.pdf";
+import CV from "../assets/CV_AmberlySandoval_FullStack.docx.pdf";
 import Lottie from "lottie-react";
 import animationData from "../assets/sun3.json";
 
