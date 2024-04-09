@@ -11,7 +11,8 @@ app.use(
   cors({
     origin: [
     "http://localhost:3000",
-    "https://carolina-portfolio-3706c48e8bfe.herokuapp.com"],
+    "https://carolina-portfolio-3706c48e8bfe.herokuapp.com",
+    "https://www.amberly.dev"],
     credentials: true,
   })
 );
