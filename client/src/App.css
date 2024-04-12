@@ -783,6 +783,13 @@ footer p{
     font-size: 40px;
     margin: 0 10px 0 10px;
   }
+  .icon-portfolio-3 {
+    font-size: 30px;
+    margin: 0 10px 0 10px;
+  }
+  .portfolio-btn {
+    margin-top: 20px;
+  }
   .resume-section {
     height: 900px;
   }
@@ -859,8 +866,8 @@ footer p{
   flex-direction: column;
   justify-content: center;
   width: 90%;
-  height: 412.5px;
-  padding: 2% 2% 2% 2%;
+  height: 500px;
+  padding: 20px;
   background-color: rgb(214, 45, 93);
   border-radius: 5px;
 }
