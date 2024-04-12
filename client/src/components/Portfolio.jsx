@@ -14,6 +14,24 @@ const Portfolio = () => {
               <h4>{item.project_title}</h4>
               <p class={` description ${item.direction_p}`}>
                 {item.project_description}
+                <br />
+                <br />
+                <i
+                  className={`icon-portfolio ${item.icon1}`}
+                ></i>
+                <i
+                  className={`icon-portfolio ${item.icon2}`}
+                ></i>
+                <i
+                  className={`icon-portfolio ${item.icon4}`}
+                ></i>
+                <i
+                  className={`icon-portfolio-3 ${item.icon3}`}
+                >
+                  <p style={{ fontSize: "10px", margin: "3px" }}>
+                    {item.pIcon}
+                  </p>
+                </i>
               </p>
               <a href={`${item.link}`}>
                 <button className="portfolio-btn">View website</button>
