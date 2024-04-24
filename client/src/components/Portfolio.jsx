@@ -16,18 +16,10 @@ const Portfolio = () => {
                 {item.project_description}
                 <br />
                 <br />
-                <i
-                  className={`icon-portfolio ${item.icon1}`}
-                ></i>
-                <i
-                  className={`icon-portfolio ${item.icon2}`}
-                ></i>
-                <i
-                  className={`icon-portfolio ${item.icon4}`}
-                ></i>
-                <i
-                  className={`icon-portfolio-3 ${item.icon3}`}
-                >
+                <i className={`icon-portfolio ${item.icon1}`}></i>
+                <i className={`icon-portfolio ${item.icon2}`}></i>
+                <i className={`icon-portfolio ${item.icon4}`}></i>
+                <i className={`icon-portfolio-3 ${item.icon3}`}>
                   <p style={{ fontSize: "10px", margin: "3px" }}>
                     {item.pIcon}
                   </p>
@@ -42,7 +34,12 @@ const Portfolio = () => {
                 </button>
               </a>
             </div>
-            <img src={item.project_img} alt="" />
+            <div className="contenedor">
+              <img className = "image" src={item.project_img} alt="" />
+              <div className="overlay">
+                <img src={item.project_img2} alt="" />
+              </div>
+            </div>
           </div>
         ))}
       </div>
