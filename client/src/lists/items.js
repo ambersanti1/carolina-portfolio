@@ -59,6 +59,17 @@ const otherItems = [
     icon: "fa-solid fa-mobile-screen-button",
     name: "Responsive website",
   },
+  {
+    id: 12,
+    icon: "fa-brands fa-php",
+    name: "php",
+  },
+  {
+    id: 13,
+    icon: "fa-brands fa-windows",
+    name: ".NET",
+  },
+
 ];
 
 export default otherItems;

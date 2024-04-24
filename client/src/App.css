@@ -69,7 +69,7 @@ div div h5, div h6 {
   margin:0;
 }
 div p {
-  font-size: 15px;
+  font-size: 18px;
   font-family: "mulish-light";
   color: #fff;
   list-style:none;
@@ -568,6 +568,10 @@ textarea::placeholder {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.resume-sec {
+  width: 60%;
 }
 
 .resume-container {

@@ -4,7 +4,7 @@ const Links = () => {
   return (
     <>
       <div className="links-text-container">
-        <p>Find me on these online spaces too!</p>
+        <p>Feeling social? Find me on these online spaces too!</p>
         <div id="links-sec" class="links-section">
           <script
             src="https://kit.fontawesome.com/bfa8aba362.js"

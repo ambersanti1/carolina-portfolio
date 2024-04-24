@@ -7,7 +7,12 @@ const Portfolio = () => {
     <div id="portfolio-sec" class="projects-section">
       <div class="portfolio-container">
         <h2>Work</h2>
-        <p>These are some of the projects I've been working on</p>
+        <p>
+          Check out some of the projects I've been working on! I've put my heart
+          and soul into each one, aiming for top-notch results. Dive into my
+          portfolio to see what I can do. I'm all about taking on fresh
+          challenges and adding value to cool projects that matter!
+        </p>
         {projects.map((item) => (
           <div class={` project  ${item.reverse}`}>
             <div class={` both-title-description ${item.direction}`}>
@@ -35,7 +40,7 @@ const Portfolio = () => {
               </a>
             </div>
             <div className="contenedor">
-              <img className = "image" src={item.project_img} alt="" />
+              <img className="image" src={item.project_img} alt="" />
               <div className="overlay">
                 <img src={item.project_img2} alt="" />
               </div>
