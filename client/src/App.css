@@ -26,8 +26,6 @@
   font-family: "mulish-medium-italic";
   src:url('../style/mulish/static/Mulish-MediumItalic.ttf');
 }
-
-
 :root {
   --yellow: #ffc305 ; 
   --orange: rgb(239, 58, 17); 
@@ -35,7 +33,6 @@
   --purple:  rgb(113, 24, 64);
   --green: #3eae34;
 }
-
 * {
   margin: 0;
   padding: 0;
@@ -43,7 +40,6 @@
 }
 
 /* FONTS  */
-
 div h2 {
   font-family: "mulish-medium";
   font-size: 60px;
@@ -52,17 +48,14 @@ div h2 {
   text-align: center;
   padding: 30px;
 }
-
 div h3 {
   font-family: "mulish-medium";
   color: white;
 }
-
 div h4 {
   font-family: 'mulish-bold';
   color: white;
 }
-
 div div h5, div h6 {
   font-family: "mulish-medium";
   color: white;
@@ -76,9 +69,7 @@ div p {
   text-align: center;
 }
 
-
 /* HEADER */
-
 #progress-container {
   height: "4px";
   width: "100%";
@@ -88,12 +79,10 @@ div p {
   left: "0";
   right: "0";
 }
-
 .progress-fill {
   height: "100%";
   background-color: var(--yellow);
 }
-
 .name-header {
   display: flex;
   flex-direction: column;
@@ -107,7 +96,6 @@ div p {
 .active a{
   font-family: 'mulish-extra-bold';
 }
-
 nav {
   display: flex;
   flex-direction: row;
@@ -117,7 +105,6 @@ nav {
   background-color:rgba(199, 0, 57, 0.6);
   width: 100%;
   z-index: 10;
-
 }
 nav ul {
   display: flex;
@@ -127,13 +114,10 @@ nav ul {
   margin: 0;
   padding: 0;
 }
-
 nav li {
   list-style: none;
   text-align: center;
-
 }
-
 nav li a {
   font-family: 'mulish-extra-light';
   font-size: 17px;
@@ -142,7 +126,6 @@ nav li a {
   display: block;
   width:120px;
 }
-
 nav li a:hover {
   font-family: 'mulish-bold';
   color: white;
@@ -158,7 +141,6 @@ nav li a:hover {
   justify-content: center;
   align-items: center;
 }
-
 .download-cv button {
   font-family: 'mulish-light';
   background: var(--yellow);
@@ -180,8 +162,6 @@ nav li a:hover {
   border-radius: 3px ;
   border: none;
 }
-  /* box-shadow: 0 3px 0px rgba(0,0,0,.5) */
-
 .home-container {
   width: 90%;
   max-width: 1200px;
@@ -189,7 +169,6 @@ nav li a:hover {
   display: flex;
   flex-direction: row;
   justify-content: center;
-
 }
 .home-container .texto{
   display: flex;
@@ -201,7 +180,6 @@ nav li a:hover {
   font-family: "mulish-light";
   font-size: 60px;
 }
-
 .home-container .carolina {
   font-size: 70px;
   font-family: "mulish-bold";
@@ -209,7 +187,6 @@ nav li a:hover {
 .home-container .sandoval {
   color: var(--yellow);
 }
-
 .home-section img {
   position: absolute;
   width: 300px;
@@ -217,7 +194,6 @@ nav li a:hover {
   border-radius: 100%;
   z-index: 9;
 }
-
 .sun-lottie {
   width: 500px;
   height: 400px;
@@ -226,34 +202,18 @@ nav li a:hover {
   align-items: center;
 }
 
-.circle-home {
-  border: 2px solid var(--yellow) ;
-  width: 300px;
-  height: 300px;
-  border-radius: 100%;
-  z-index: 9;
-}
- 
-.c2 {
-  position: absolute;
-  float: left;
-}
-
 /* ABOUT ME */
 .about-me-section {
   height: 100vh;
   background-color: var(--orange);
-  /* background: linear-gradient(to bottom, var(--orange) 90%, var(--pink)); */
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 .photo-text-abt {
   display: flex;
   flex-direction: row;
 }
-
 .aboutme-container {
   width: 80%;
   max-width: 1200px;
@@ -261,26 +221,21 @@ nav li a:hover {
   display: flex;
   flex-direction: row;
 }
-
 .aboutme-container p {
   text-align: left;
   border-radius: 5px;
   padding: 1rem;
 }
-
 .text-about-me {
   background-color:#ff4f3f;
   border-radius: 5px;
   text-align: center;
   padding: 1rem;
   width: 60%;
-
 }
-
 .text-about-me h2{
   padding:0;
 }
-
 .aboutme-profile {
   display:flex;
   justify-content: flex-start;
@@ -316,7 +271,6 @@ nav li a:hover {
   cursor: pointer;
   transition: opacity 0.3s ease;
 }
-
 .icon-portfolio {
   font-size: 50px;
   margin: 0 20px 0 20px;
@@ -348,7 +302,6 @@ nav li a:hover {
   border-radius: 3px ;
   border: none;
 }
-
 .projects-section {
   height: auto;
   background-color: var(--pink);
@@ -359,7 +312,6 @@ nav li a:hover {
   justify-content: center;
   padding: 5% 0 5% 0;
 }
-
 .portfolio-container {
   width: 90%;
   max-width: 1200px;
@@ -368,14 +320,12 @@ nav li a:hover {
   display:inline-block;
   width: 90%;
 }
-
 .project {
   height: auto;
   display: flex;
   justify-content: space-between;
   margin: 2% 0 2% 0;
 }
-
 .projects-section img {
   max-width: 550px;
   width: 100%;
@@ -383,7 +333,6 @@ nav li a:hover {
   border-radius: 5px;
   opacity: 1;
 }
-
 .both-title-description {
   display: flex;
   flex-direction: column;
@@ -394,20 +343,17 @@ nav li a:hover {
   background-color: rgb(214, 45, 93);
   border-radius: 5px;
 }
-
 .reverse {
   display: flex;
   flex-direction: row-reverse;
   justify-content: flex-end;
 }
-
 .right {
   margin-right: 10px;
   text-align: right;
   display: flex;
   align-items: flex-end;
 }
-
 .left {
   margin-left: 10px;
   text-align: left;
@@ -417,13 +363,11 @@ nav li a:hover {
 .right-p {
   text-align: right;
 }
-
 .left-p {
   text-align: left;
 }
 
 /* CONTACT */
-
 .contact-section {
   padding: 2rem 0 2rem;
   height: auto;
@@ -432,7 +376,6 @@ nav li a:hover {
   justify-content: center;
   align-items: center;
 }
-
 .form {
   width: 500px;
   padding: 20px;
@@ -441,7 +384,6 @@ nav li a:hover {
   flex-direction: column;
   align-items: center;
 }
-
 .form input {
   display: inline-block;
   font-family: 'mulish-medium';
@@ -452,13 +394,10 @@ nav li a:hover {
 .form .correo {
   text-transform: lowercase;
 }
-
-
 input::placeholder,
 textarea::placeholder {
   font-family: 'mulish-medium';
 }
-
 .form input[type= "text"],
 .form input[type= "email"],
 .form textarea{
@@ -470,21 +409,17 @@ textarea::placeholder {
   border: 1px solid #CECECE;
   font-size: 16px;
 }
-
 .form textarea {
   min-height: 120px;
   max-height: 300px;
 }
-
 .form input[type= "text"]:focus,
 .form input[type= "email"]:focus,
 .form textarea:focus{
   border: 2px solid #4fb560;
   outline: none; /* Es para que el borde no sea negro por default y agarre el color especificado, en este caso verde*/
 }
-
 /* focus es para cuando sueltas el click en un elemento */
-
 .form input[type = "submit"] {
   font-family: 'mulish-medium';
   width: 200px;
@@ -496,12 +431,10 @@ textarea::placeholder {
   border-radius: 3px;
   border: none;
 }
-
 .form input[type = "submit"]:hover {
   background-color: var(--green);
   color: white;
 }
-
 .form-container {
   display: flex;
   flex-direction: column;
@@ -509,24 +442,19 @@ textarea::placeholder {
   align-items: center;
 }
 /* LINKS */
-
 .links-section {
   height: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 .links-text-container {
   width: 300px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 20px;
-
-
 }
-
 .vector{
   display: flex;
   justify-content: center;
@@ -536,7 +464,6 @@ textarea::placeholder {
   border-radius: 50%;
   overflow: hidden
 }
-
 .vectors-space {
   width: 1000px;
   max-width: 100%;
@@ -544,11 +471,9 @@ textarea::placeholder {
   justify-content: space-around;
   align-items: center;
 }
-
 .v-linkedin {
   background-color: #245fc6c0;
 }
-
 .v-whatsapp {
   background-color: #45c839c8;
 }
@@ -559,23 +484,20 @@ textarea::placeholder {
   background-color: #6e5494b6;
 } 
 
-/* Resume */
+/* RESUME */
 .resume-section {
   height: 100vh;
   background-color: var(--purple);
-  /* background: linear-gradient(to bottom, var(--purple) 90%, var(--pink)); */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-
 .resume-sec {
-  width: 60%;
+  width: 80%;
 }
-
 .resume-container {
-    display: flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -587,18 +509,20 @@ textarea::placeholder {
   justify-content: center;
   align-items: center;
 }
-
 .i-text {
   font-size: 20px;
 }
-
 .icon {
   text-align: center;
   font-size: 80px;
   width: 150px;
-  margin: 1rem;
+  margin-bottom: 10px;
 }
-
+.icon p {
+  font-size: 18px;
+  font-weight: normal;
+  margin: 20px;
+}
 .certificate-container {
   display: flex;
   justify-content: space-around;
@@ -621,14 +545,12 @@ textarea::placeholder {
   align-items: center;
   background-color: var(--pink);
 }
-
 .resume-section  p {
   font-size: 18px;
   font-family: "mulish-light";
   color: #fff;
   list-style:none;
 }
-
 .resume-section button {
   font-family: 'mulish-medium';
   max-width: 100%;
@@ -648,13 +570,11 @@ footer {
   width: 100%;
   padding: 20px;
 }
-
 footer p{
   margin: 0;
   font-size: small;
   color: white;
 }
-
 
 /* RESPONSIVE WEBSITE */
 
@@ -668,14 +588,12 @@ footer p{
     justify-content: center;
     align-items: center;
   }
-
   .home-container .texto{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-
   .sun-lottie {
     width: 300px;
     height: 300px;
@@ -686,11 +604,9 @@ footer p{
     height: auto;
     padding: 10% 0 10% 0;
   }
-
   .about-me-section h2 {
     padding: 0;
   }
-
   .aboutme-profile {
     display: flex;
     flex-direction: column;
@@ -701,22 +617,50 @@ footer p{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
   }
   .text-about-me {
     width: 100%;
   }
 
-  /* RESUME */
+/* PORTFOLIO */
+
+  .home-container .carolina {
+    text-align: center;
+  }
+  .right-p {
+    text-align: center;
+  }
+  .left-p {
+    text-align: center;
+  }
+  .project {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0 2rem 0;
+  }
+  .both-title-description {
+    text-align: center;
+    height: auto;
+    width: auto;
+    padding-top: 2rem;
+  }
+  .right {
+    display: flex;
+    align-items: center;
+    margin:0;
+  }
+  .left {
+    display: flex;
+    align-items: center;
+    margin:0;
+  }
+
+/* RESUME */
   .resume-section{
-  padding: 15% 0 15% 0;
-  height: auto;
+  padding: 20px 0 20px 0;
   }
-
-  .resume-section {
-    padding: 0 20px 0 20px;
-  }
-
   .icon {
     text-align: center;
     font-size: 60px;
@@ -725,8 +669,9 @@ footer p{
   }
 }
 
-/* CONTACT  */
 @media screen and (max-width:1000px){
+
+/* CONTACT */
 .contact-section {
   height: auto;
   display: flex;
@@ -734,7 +679,6 @@ footer p{
   justify-content: center;
   align-items: center;
 }
-
 .form {
   width: 350px;
   margin-right: 0;
@@ -751,95 +695,13 @@ footer p{
   font-family: arial;
   font-size: 16px;
   height: 20px;
-}
-}
-
-
-@media screen and (max-width:1200px) {
-
-  /* PORTFOLIO */
-  .portfolio-container {
-    display: block;
   }
-
-  .home-container .carolina {
-    text-align: center;
-  }
-
-  .right-p {
-    text-align: center;
-  }
-
-  .left-p {
-    text-align: center;
-  }
-  .project {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 1rem 0 2rem 0;
-  }
-
-  .both-title-description {
-    text-align: center;
-    height: auto;
-    width: auto;
-    padding-top: 2rem;
-  }
-
-  .right {
-    display: flex;
-    align-items: center;
-    margin:0;
-  }
-
-  .left {
-    display: flex;
-    align-items: center;
-    margin:0;
-  }
-
 }
 
-@media screen and (max-width: 750px) {
-  .icon-portfolio {
-    font-size: 40px;
-    margin: 0 10px 0 10px;
-  }
-  .icon-portfolio-3 {
-    font-size: 30px;
-    margin: 0 10px 0 10px;
-  }
-  .portfolio-btn {
-    margin-top: 20px;
-  }
-  .resume-section {
-    height: 900px;
-  }
+@media screen and (max-width: 800px) {
 
-  .sun-lottie {
-  width: 350px;
-  height: 250px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-  .icons-container {
-  width: 100%;
-  display: flex;
-  flex-wrap:wrap;
-  justify-content: center;
-  align-items: center;
-}
-  .icon {
-  text-align: center;
-  font-size: 40px;
-  width: 150px;
-  margin: 0.5rem;
-  }
-    div h1 {
+/* FONTS */
+  div h1 {
     font-size: 45px;
     text-align: center;
   }
@@ -849,12 +711,13 @@ footer p{
   div p {
     font-size:15px;
   }
-    nav {
+
+/* HEADER */
+  nav {
     display: flex;
     justify-content: center;
     width: 100%;
   }
-
   nav ul li a {
     display: flex;
     flex-direction: row;
@@ -868,32 +731,79 @@ footer p{
     justify-content: space-around;
     width: 80px;
   }
-
   .name-header {
     display: none;
   }
+
+/* HOME */
   .home-container .carolina {
-  font-size: 40px;
-  font-family: "mulish-bold";
+    font-size: 40px;
+    font-family: "mulish-bold";
   }
   .home-container h1 {
-  color: white;
-  font-family: "mulish-light";
-  font-size: 30px;
-}
+    color: white;
+    font-family: "mulish-light";
+    font-size: 30px;
+  }
   .project img {
-    width: 90%;
+    width: 100%;
     margin-top: 0.5rem;
   }
   .both-title-description {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 90%;
-  height: 500px;
-  padding: 20px;
-  background-color: rgb(214, 45, 93);
-  border-radius: 5px;
-}
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+    padding: 20px;
+    background-color: rgb(214, 45, 93);
+    border-radius: 5px;
+  }
+  .sun-lottie {
+    margin-top: 20px;
+    width: 350px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
+/* PORTFOLIO */
+  .icon-portfolio {
+    font-size: 40px;
+    margin: 0 10px 0 10px;
+  }
+  .icon-portfolio-3 {
+    font-size: 30px;
+    margin: 0 10px 0 10px;
+  }
+  .portfolio-btn {
+    margin-top: 20px;
+  }
+
+/* RESUME */
+  .resume-section {
+    height: 120vh;
+  }
+  .resume-section p{
+    font-size: 15px;
+  }
+  .icons-container {
+    width: 100%;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .icon {
+    text-align: center;
+    font-size: 35px;
+    width: 150px;
+    margin: 10px;
+  }
+  .icon p {
+    font-size: 15px;
+    margin: 5px;
+  }
 }

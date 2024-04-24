@@ -22,7 +22,7 @@ const otherItems = [
   {
     id: 5,
     icon: "fa-solid fa-database",
-    name: "MySQL and MongoDB",
+    name: "MySQL / MongoDB",
   },
   {
     id: 6,
@@ -60,12 +60,12 @@ const otherItems = [
     name: "Responsive website",
   },
   {
-    id: 12,
+    id: 13,
     icon: "fa-brands fa-php",
     name: "php",
   },
   {
-    id: 13,
+    id: 14,
     icon: "fa-brands fa-windows",
     name: ".NET",
   },
