@@ -72,7 +72,7 @@ const projects = [
     id: 4,
     project_title: "High Life Gym",
     project_description:
-      "Join the movement to restore Mexico's natural ecosystems. Our app makes it easy to contribute to this revolutionary change by donating through Stripe. Your donations will help plant trees across Mexico, fostering the recovery of natural spaces.",
+      "This website was created for High Life Gym, incorporating WooCommerce to facilitate users in purchasing various membership plans.",
     project_img: gymlogo,
     project_img2: gymfront,
     reverse: "reverse",
@@ -88,7 +88,7 @@ const projects = [
     id: 5,
     project_title: "Luxe",
     project_description:
-      "Embark on a journey of exploration with our travel magazine website! Dive into a world of captivating stories, stunning photography, and expert insights that will ignite your wanderlust. Whether you're seeking travel inspiration, practical tips, or in-depth destination guides, our magazine has it all. Join our community and let the adventure begin!",
+      "Luxe is an eCommerce site, meticulously crafted on WordPress and seamlessly integrated with PayPal. Elevate your brand's online presence with a stylish and secure platform designed to showcase and sell your unique collections effortlessly. Empower your business with cutting-edge technology and personalized support, ensuring a standout presence in the competitive fashion market.",
     project_img: luxelogo,
     project_img2: luxefront,
     direction: "right",
@@ -102,7 +102,7 @@ const projects = [
     id: 6,
     project_title: "Finn Academy",
     project_description:
-      "Join the movement to restore Mexico's natural ecosystems. Our app makes it easy to contribute to this revolutionary change by donating through Stripe. Your donations will help plant trees across Mexico, fostering the recovery of natural spaces.",
+      "Finn Academy is an online learning and teaching marketplace specialized in finance. Students can access to free articles or hire the standard or gold membership and access to hundreds of information.",
     project_img: finnlogo,
     project_img2: finnfront,
     reverse: "reverse",
