@@ -4,6 +4,12 @@ import wanderlust from "../img/wanderlust.png";
 import meditrackDemo from "../img/meditrack-demo.png";
 import treefundDemo from "../img/treefund-demo.png";
 import wanderlustationDemo from "../img/wanderlustation-demo.png";
+import gymfront from "../img/gym-front.svg"
+import gymlogo from "../img/gym-logo.svg"
+import luxefront from "../img/luxe-front.svg"
+import luxelogo from "../img/luxe-logo.svg"
+import finnfront from "../img/finn-front.svg"
+import finnlogo from "../img/finn-logo.svg"
 
 
 const projects = [
@@ -61,6 +67,52 @@ const projects = [
     icon3: "fa-brands fa-sass",
     icon4: "fa-brands fa-php",
     icon5: "fa-brands fa-css3-alt",
+  },
+  {
+    id: 4,
+    project_title: "High Life Gym",
+    project_description:
+      "Join the movement to restore Mexico's natural ecosystems. Our app makes it easy to contribute to this revolutionary change by donating through Stripe. Your donations will help plant trees across Mexico, fostering the recovery of natural spaces.",
+    project_img: gymlogo,
+    project_img2: gymfront,
+    reverse: "reverse",
+    direction: "left",
+    direction_p: "left-p",
+    link: "high-life-gym.com",
+    linkGit: "https://github.com/ambersanti1/TreeFund",
+    icon1: "fa-brands fa-wordpress",
+    icon2: "fa-brands fa-cc-paypal",
+    icon3: "fa-brands fa-cc-stripe",
+  },
+  {
+    id: 5,
+    project_title: "Luxe",
+    project_description:
+      "Embark on a journey of exploration with our travel magazine website! Dive into a world of captivating stories, stunning photography, and expert insights that will ignite your wanderlust. Whether you're seeking travel inspiration, practical tips, or in-depth destination guides, our magazine has it all. Join our community and let the adventure begin!",
+    project_img: luxelogo,
+    project_img2: luxefront,
+    direction: "right",
+    direction_p: "right-p",
+    link: "www.luxe.amberly.site",
+    icon1: "fa-brands fa-wordpress",
+    icon2: "fa-brands fa-cc-paypal",
+    icon3: "fa-brands fa-cc-stripe",
+  },
+  {
+    id: 6,
+    project_title: "Finn Academy",
+    project_description:
+      "Join the movement to restore Mexico's natural ecosystems. Our app makes it easy to contribute to this revolutionary change by donating through Stripe. Your donations will help plant trees across Mexico, fostering the recovery of natural spaces.",
+    project_img: finnlogo,
+    project_img2: finnfront,
+    reverse: "reverse",
+    direction: "left",
+    direction_p: "left-p",
+    link: "www.finn-academy.amberly.site",
+    linkGit: "https://github.com/ambersanti1/TreeFund",
+    icon1: "fa-brands fa-wordpress",
+    icon2: "fa-brands fa-cc-paypal",
+    icon3: "fa-brands fa-cc-stripe",
   },
 ];
 
