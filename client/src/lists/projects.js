@@ -88,7 +88,7 @@ const projects = [
     id: 5,
     project_title: "Luxe",
     project_description:
-      "Luxe is an eCommerce site, meticulously crafted on WordPress and seamlessly integrated with PayPal. Elevate your brand's online presence with a stylish and secure platform designed to showcase and sell your unique collections effortlessly. Empower your business with cutting-edge technology and personalized support, ensuring a standout presence in the competitive fashion market.",
+      "Luxe is an eCommerce site build on WordPress and integrated with PayPal. It was created to elevate the client brand's online presence with a stylish and secure platform to showcase and sell their products effortlessly.",
     project_img: luxelogo,
     project_img2: luxefront,
     direction: "right",
