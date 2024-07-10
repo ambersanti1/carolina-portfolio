@@ -83,6 +83,7 @@ const projects = [
     icon1: "fa-brands fa-wordpress",
     icon2: "fa-brands fa-cc-paypal",
     icon3: "fa-brands fa-cc-stripe",
+    icon4: "fa-brands fa-elementor",
   },
   {
     id: 5,
@@ -97,6 +98,7 @@ const projects = [
     icon1: "fa-brands fa-wordpress",
     icon2: "fa-brands fa-cc-paypal",
     icon3: "fa-brands fa-cc-stripe",
+    icon4: "fa-brands fa-elementor",
   },
   {
     id: 6,
@@ -112,6 +114,7 @@ const projects = [
     icon1: "fa-brands fa-wordpress",
     icon2: "fa-brands fa-cc-paypal",
     icon3: "fa-brands fa-cc-stripe",
+    icon4: "fa-brands fa-elementor",
   },
   {
     id: 7,
@@ -124,8 +127,9 @@ const projects = [
     direction_p: "right-p",
     link: "https://ecook.mx/",
     icon1: "fa-brands fa-wordpress",
-    icon2: "fa-brands fa-cc-paypal",
-    icon3: "fa-brands fa-cc-stripe",
+    icon2: "fa-brands fa-css3-alt",
+    icon3: "fa-brands fa-html5",
+    icon4: "fa-brands fa-elementor",
   },
 ];
 
