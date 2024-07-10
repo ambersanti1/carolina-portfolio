@@ -10,6 +10,8 @@ import luxefront from "../img/luxe-front.svg"
 import luxelogo from "../img/luxe-logo.svg"
 import finnfront from "../img/finn-front.svg"
 import finnlogo from "../img/finn-logo.svg"
+import ecookfront from "../img/ecookfront.svg"
+import ecooklogo from "../img/ecooklogo.svg"
 
 
 const projects = [
@@ -107,6 +109,20 @@ const projects = [
     direction: "left",
     direction_p: "left-p",
     link: "https://www.finn-academy.amberly.site/",
+    icon1: "fa-brands fa-wordpress",
+    icon2: "fa-brands fa-cc-paypal",
+    icon3: "fa-brands fa-cc-stripe",
+  },
+  {
+    id: 7,
+    project_title: "ecook",
+    project_description:
+      "Ecook is a mexican food blog, where you can find recipes ranging from quick weekday meals to impressive dishes for entertaining. This website is SEO friendly and includes Google Ads and Google Analytics, so the client can monitor the website views.",
+    project_img: ecooklogo,
+    project_img2: ecookfront,
+    direction: "right",
+    direction_p: "right-p",
+    link: "https://ecook.mx/",
     icon1: "fa-brands fa-wordpress",
     icon2: "fa-brands fa-cc-paypal",
     icon3: "fa-brands fa-cc-stripe",
