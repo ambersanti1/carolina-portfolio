@@ -53,6 +53,8 @@ div h3 {
   font-size: 30px;
   color: white;
   font-style: italic;
+  margin-top: 20px;
+  margin-bottom: 40px;
 }
 div h4 {
   font-family: 'mulish-bold';
@@ -147,7 +149,8 @@ nav li a:hover {
   font-family: 'mulish-light';
   background: var(--yellow);
   color: var(--pink);
-  padding: 0.5rem;
+  padding: 15px;
+
   cursor: pointer;
   font-size: 15px;
   border-radius: 3px ;
