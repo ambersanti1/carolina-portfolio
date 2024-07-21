@@ -35,7 +35,7 @@ const projects = [
   },
   {
     id: 2,
-    project_title: "High Life Gym",
+    project_title: "Gym High Life",
     project_description:
       "This website was created for High Life Gym, incorporating WooCommerce to facilitate users in purchasing various membership plans.",
     project_img: gymlogo,
