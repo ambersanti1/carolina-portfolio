@@ -33,11 +33,11 @@ const Portfolio = () => {
               <a href={`${item.link}`}>
                 <button className="portfolio-btn">View website</button>
               </a>
-              <a href={`${item.linkGit}`}>
+              {/* <a href={`${item.linkGit}`}>
                 <button className="portfolio-btn">
                   View GitHub repository
                 </button>
-              </a>
+              </a> */}
             </div>
             <div className="contenedor">
               <img className="image" src={item.project_img} alt="" />

@@ -8,11 +8,12 @@ const Home = () => {
       <div id="home-sec" class="home-section">
         <div class="home-container">
           <div class="texto">
-            <h1>Hello! I'm </h1>{" "}
             <h1 class="carolina">
               Amberly <span class="sandoval">Sandoval</span>
             </h1>
             <h1> Full Stack Web Developer </h1>{" "}
+            <h3> Front End Specialist </h3>{" "}
+            
             <div className="download-cv">
               <a
                 href={CV}
