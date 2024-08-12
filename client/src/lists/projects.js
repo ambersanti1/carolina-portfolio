@@ -12,6 +12,8 @@ import finnfront from "../img/finn-front.svg"
 import finnlogo from "../img/finn-logo.svg"
 import ecookfront from "../img/ecookfront.svg"
 import ecooklogo from "../img/ecooklogo.svg"
+import guessfront from "../img/guess_front.svg"
+import guesslogo from "../img/guess_logo.svg"
 
 
 const projects = [
@@ -128,6 +130,21 @@ const projects = [
     icon2: "fa-brands fa-cc-paypal",
     icon3: "fa-brands fa-cc-stripe",
     icon4: "fa-brands fa-elementor",
+  },
+  {
+    id: 8,
+    project_title: "Guess My Number",
+    project_description:
+      "Guess My Number is a game where players guess a secret number. Points are deducted for each wrong guess. The goal is to guess the number correctly with as few attempts as possible.",
+    reverse: "reverse",
+    project_img: guesslogo,
+    project_img2: guessfront,
+    direction: "left",
+    direction_p: "left-p",
+    link: "https://ambersanti1.github.io/guess-my-number/",
+    icon2: "fa-brands fa-css3-alt",
+    icon3: "fa-brands fa-html5",
+    icon4: "fa-brands fa-js",
   },
 ];
 
