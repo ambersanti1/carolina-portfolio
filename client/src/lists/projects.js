@@ -14,6 +14,8 @@ import ecookfront from "../img/ecookfront.svg"
 import ecooklogo from "../img/ecooklogo.svg"
 import guessfront from "../img/guess_front.svg"
 import guesslogo from "../img/guess_logo.svg"
+import pigfront from "../img/pig-front.svg"
+import piglogo from "../img/pig-logo.svg"
 
 
 const projects = [
@@ -142,6 +144,20 @@ const projects = [
     direction: "left",
     direction_p: "left-p",
     link: "https://ambersanti1.github.io/guess-my-number/",
+    icon2: "fa-brands fa-css3-alt",
+    icon3: "fa-brands fa-html5",
+    icon4: "fa-brands fa-js",
+  },
+  {
+    id: 9,
+    project_title: "Pig Game",
+    project_description:
+      "Players take turns rolling a die, adding the roll to their score. Rolling a 1 ends their turn and forfeits that round’s points. The first to reach 100 points wins!",
+    project_img: piglogo,
+    project_img2: pigfront,
+    direction: "right",
+    direction_p: "right-p",
+    link: "https://ambersanti1.github.io/pig-game/",
     icon2: "fa-brands fa-css3-alt",
     icon3: "fa-brands fa-html5",
     icon4: "fa-brands fa-js",
